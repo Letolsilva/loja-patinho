@@ -1,0 +1,50 @@
+.header {
+  background-color: var(--primary-color);
+  border-bottom: 1px solid;
+  border-color: rgba(0, 0, 0, 0.3);
+  padding: 16px 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 16px;
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  transition-duration: 250ms;
+}
+
+.logo-icon:hover {
+  scale: 1.3;
+  transition-duration: 500ms;
+  cursor: grab;
+}
+
+.logo {
+  width: 160px;
+  height: 40px;
+}
+.menu-icon {
+  width: 40px;
+  height: 40px;
+  stroke: var(--accent-color);
+}
+.menu-icon {
+  width: 40px;
+  height: 40px;
+  transition-duration: 250ms;
+}
+
+.menu-icon:hover {
+  scale: 1.3;
+  transition-duration: 500ms;
+  cursor: grab;
+}
