@@ -22,7 +22,6 @@ const Login = (props) => {
   */
 
   const verify = () => {
-    console.log("verify");
     setUserNameError("");
     setPasswordError("");
     var hasError = false;
